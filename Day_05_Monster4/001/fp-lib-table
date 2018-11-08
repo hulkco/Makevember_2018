@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Monster)(type KiCad)(uri ${KIPRJMOD}/Monster.pretty)(options "")(descr ""))
+)

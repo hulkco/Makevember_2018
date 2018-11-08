@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Delorean)(type KiCad)(uri ${KIPRJMOD}/Delorean.pretty)(options "")(descr ""))
+)
