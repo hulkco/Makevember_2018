@@ -224,7 +224,7 @@ F 3 "" H 3915 7555 50  0001 C CNN
 	1    3915 7555
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9085 4555
+NoConn ~ 8880 3845
 Text GLabel 4370 6230 2    50   Input ~ 0
 +5V
 Text GLabel 6775 900  1    50   Input ~ 0
@@ -547,54 +547,6 @@ Text GLabel 6060 910  1    50   Input ~ 0
 GND
 Text GLabel 8995 1085 1    50   Input ~ 0
 +5V
-$Comp
-L 001-rescue:LED-RGB-WS2812B-4SMD-wickerlib LED7
-U 1 1 5A8A2E7D
-P 9535 3595
-F 0 "LED7" H 9585 3970 50  0000 C CNN
-F 1 "WS2812B" H 9585 3879 50  0000 C CNN
-F 2 "Granabot_Footprints:WS2812B" H 9535 3245 50  0001 C CIN
-F 3 "http://www.adafruit.com/datasheets/WS2812B.pdf" H 9535 3595 5   0001 C CNN
-F 4 "LED RGB WS2812B W/DVR 4SMD" H 9535 3245 50  0001 C CIN "Description"
-F 5 "Adafruit" H 9535 3245 50  0001 C CIN "MF_Name"
-F 6 "1655" H 9535 3245 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 9535 3245 50  0001 C CIN "S1_Name"
-F 8 "1528-1104-ND" H 9535 3245 50  0001 C CIN "S1_PN"
-	1    9535 3595
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:LED-RGB-WS2812B-4SMD-wickerlib LED8
-U 1 1 5A8A2FAB
-P 9635 4805
-F 0 "LED8" H 9685 5180 50  0000 C CNN
-F 1 "WS2812B" H 9685 5089 50  0000 C CNN
-F 2 "Granabot_Footprints:WS2812B" H 9635 4455 50  0001 C CIN
-F 3 "http://www.adafruit.com/datasheets/WS2812B.pdf" H 9635 4805 5   0001 C CNN
-F 4 "LED RGB WS2812B W/DVR 4SMD" H 9635 4455 50  0001 C CIN "Description"
-F 5 "Adafruit" H 9635 4455 50  0001 C CIN "MF_Name"
-F 6 "1655" H 9635 4455 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 9635 4455 50  0001 C CIN "S1_Name"
-F 8 "1528-1104-ND" H 9635 4455 50  0001 C CIN "S1_PN"
-	1    9635 4805
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8880 3845 9085 3845
-Wire Wire Line
-	10085 3845 10440 3845
-Wire Wire Line
-	9085 3120 9085 3445
-Connection ~ 7880 3120
-Text GLabel 10085 4955 2    50   Input ~ 0
-+5V
-Connection ~ 8380 4305
-Wire Wire Line
-	9585 4305 9585 4095
-Wire Wire Line
-	10085 4555 10440 4555
-Wire Wire Line
-	10440 4555 10440 3845
 Wire Wire Line
 	8380 4095 8380 4305
 Wire Notes Line
@@ -661,10 +613,6 @@ Wire Wire Line
 	7180 4305 8380 4305
 Wire Wire Line
 	6680 3120 7880 3120
-Wire Wire Line
-	7880 3120 9085 3120
-Wire Wire Line
-	8380 4305 9585 4305
 Wire Wire Line
 	8995 1175 8995 1085
 Wire Wire Line
